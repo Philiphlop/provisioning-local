@@ -3,7 +3,7 @@ dnf install python ansible git -y
 cd ~
 mkdir -p /tmp/ansible-setup
 cd /tmp/ansible-setup
-git clone https://github.com/JBKahn/provisioning-local.git
+git clone https://gitlab.com/Philiphlop/provisioning-local.git
 cd provisioning-local
 
 echo -e "please make sure to edit the config.json file followed by [ENTER]" && read USELESS_VAR
