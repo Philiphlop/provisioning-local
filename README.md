@@ -7,5 +7,5 @@ One Command Install
 -------------------------------
 
 ```bash
-wget -qO- https://github.com/philiphlop/provisioning-local/raw/master/run.sh | bash
+wget -qO- https://gitlab.com/Philiphlop/provisioning-local/raw/master/run.sh | bash
 ```
