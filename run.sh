@@ -1,4 +1,4 @@
-dnf install python ansible git -y
+sudo dnf install python ansible git -y
 
 cd ~
 mkdir -p /tmp/ansible-setup
