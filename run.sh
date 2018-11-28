@@ -1,14 +1,10 @@
-sudo apt-get install python-setuptools aptitude git python-dev libxml2-dev libxslt-dev
-
-sudo easy_install pip
+dnf install python ansible bit -y
 
 cd ~
-mkdir -p setup
-cd setup
+mkdir -p /tmp/ansible-setup
+cd /tmp/ansible-setup
 git clone https://github.com/JBKahn/provisioning-local.git
 cd provisioning-local
-
-sudo pip install -r requirements.txt
 
 echo -e "please make sure to edit the config.json file followed by [ENTER]" && read USELESS_VAR
 
